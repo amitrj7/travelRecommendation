@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head><title>Contact Us</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - TravelBloom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-  <h1>Contact TravelBloom</h1>
-  <form>
-    <label>Email:</label>
-    <input type="email" required>
-    <br>
-    <label>Message:</label>
-    <textarea required></textarea>
-    <br>
-    <button type="submit">Send</button>
-  </form>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Contact TravelBloom</h1>
+    <form>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" required></textarea><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TravelBloom</p>
+  </footer>
 </body>
 </html>
