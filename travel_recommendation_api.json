@@ -1,0 +1,30 @@
+{
+  "beaches": [
+    {
+      "name": "Bondi Beach",
+      "country": "Australia",
+      "imageUrl": "https://example.com/bondi.jpg",
+      "description": "A popular beach known for surfing and golden sand."
+    },
+    {
+      "name": "Copacabana",
+      "country": "Brazil",
+      "imageUrl": "https://example.com/copacabana.jpg",
+      "description": "A vibrant beach famous for parties and culture."
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "country": "Cambodia",
+      "imageUrl": "https://example.com/angkor.jpg",
+      "description": "Largest temple complex in the world."
+    },
+    {
+      "name": "Golden Temple",
+      "country": "India",
+      "imageUrl": "https://example.com/golden.jpg",
+      "description": "A sacred Sikh temple located in Amritsar."
+    }
+  ]
+}
